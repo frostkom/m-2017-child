@@ -1,0 +1,184 @@
+/*
+Theme Name: M 2017
+Theme URI: 
+Version: 1.2.5
+Description: 
+Author: Martin Fors
+Author URI: http://frostkom.se
+
+Template: mf_theme
+*/
+
+@media all
+{
+	header .theme_nav > div > ul > li > a:before
+	{
+		background: #019cdb;
+		content: "";
+		height: .4rem;
+		left: 0;
+		max-height: 0;
+		position: absolute;
+		right: 0;
+		top: 0;
+		transition: max-height 0.15s ease 0s;
+	}
+
+		header .theme_nav > div > ul > li > a:hover:before
+		{
+			max-height: .4rem;
+		}
+
+	mf-after-header
+	{
+		position: relative;
+		z-index: 10;
+	}
+
+		mf-after-header > div
+		{
+			margin-bottom: -50px !important;
+			padding: 0 2em;
+			text-align: center;
+		}
+
+			.is_mobile mf-after-header > div
+			{
+				margin-bottom: 0 !important;
+			}
+
+			.is_tablet mf-after-header .widget.buttons, .is_desktop mf-after-header .widget.buttons
+			{
+				margin-top: -8em;
+			}
+
+	.custom_list, .custom_list_vara-politiker
+	{
+		display: -webkit-box;
+		display: -ms-flexbox;
+		display: -webkit-flex;
+		display: flex;
+		-webkit-box-flex-wrap: wrap;
+		-webkit-flex-wrap: wrap;
+		-ms-flex-wrap: wrap;
+		flex-wrap: wrap;
+		list-style: none;
+	}
+
+		.custom_list li, .custom_list_vara-politiker li
+		{
+			-webkit-box-flex: 0 1 auto;
+			-webkit-flex: 0 1 auto;
+			-ms-flex: 0 1 auto;
+			flex: 0 1 auto;
+			margin: 0 .5% 1em .5%;
+			text-align: center;
+			width: 24%;
+		}
+
+		.is_tablet .custom_list li, .is_tablet .custom_list_vara-politiker li
+		{
+			width: 32%;
+		}
+
+		.is_mobile .custom_list li, .is_mobile .custom_list_vara-politiker li
+		{
+			width: 99%;
+		}
+
+			.custom_list h2, .custom_list_vara-politiker h2
+			{
+				font-size: 1em;
+				overflow: hidden;
+				text-overflow: ellipsis;
+			}
+
+			.custom_list .image, .custom_list_vara-politiker .image
+			{
+				height: 0;
+				margin-bottom: .5em;
+				padding-bottom: 100%;
+				overflow: hidden;
+			}
+
+			.custom_list p, .custom_list_vara-politiker p
+			{
+				font-size: .7em;
+			}
+
+	#aside h3
+	{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+	mf-pre-footer .widget
+	{
+		font-size: 1.8em;
+		text-align: center;
+	}
+
+		mf-pre-footer .widget_black_studio_tinymce h3
+		{
+			background: #4d4d4d none repeat scroll 0 0;
+			color: #fff;
+			font-weight: 500;
+			padding: 4px 0;
+			text-align: center;
+			text-transform: uppercase;
+		}
+
+		mf-pre-footer .vcard h3
+		{
+			background: #019cdb;
+			box-shadow: 0 1em 1em rgba(0, 0, 0, .2);
+			color: #fff;
+			font-weight: normal;
+			margin-bottom: -1.8em;
+			padding: 1em 0 3em;
+		}
+
+		mf-pre-footer .vcard .social.circle .fa
+		{
+			border-color: #fff;
+		}
+
+		.widget.social_feed
+		{
+			background: #dcdcdc;
+		}
+
+			.widget.social_feed h3
+			{
+				background: #4d4d4d;
+				color: #fff;
+				padding: .2em 0;
+				text-transform: uppercase;
+			}
+
+	footer .widget h3
+	{
+		border-bottom: 1px solid #666;
+		color: #666;
+		font-weight: normal;
+	}
+
+	footer .widget a
+	{
+		text-decoration: underline;
+	}
+
+	footer .theme_logo
+	{
+		padding-top: 5em;
+		text-align: center;
+	}
+
+	footer .theme_logo #site_logo
+	{
+		display: block;
+		float: none;
+		margin: 0 auto;
+		width: 50%;
+	}
+}
