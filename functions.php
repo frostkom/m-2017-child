@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 add_action('wp_head', 'head_child', 0);
 

@@ -1,7 +1,7 @@
 /*
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
-Version: 1.2.6
+Version: 1.2.8
 Description: 
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -64,7 +64,6 @@ GitHub Theme URI: frostkom/m-2017-child
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		list-style: none;
 	}
 
 		.custom_list li, .custom_list_vara-politiker li
