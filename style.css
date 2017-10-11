@@ -1,7 +1,7 @@
 /*
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
-Version: 2.0.0
+Version: 2.0.2
 Description: 
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -42,25 +42,25 @@ GitHub Theme URI: frostkom/m-2017-child
 			max-height: .4rem;
 		}
 
-	mf-after-header
+	#mf-after-header
 	{
 		position: relative;
 		z-index: 10;
 	}
 
-		mf-after-header > div
+		#mf-after-header > div
 		{
 			margin-bottom: -50px !important;
 			padding: 0 2em;
 			text-align: center;
 		}
 
-			.is_mobile mf-after-header > div
+			.is_mobile #mf-after-header > div
 			{
 				margin-bottom: 0 !important;
 			}
 
-			.is_tablet mf-after-header .widget.buttons, .is_desktop mf-after-header .widget.buttons
+			.is_tablet #mf-after-header .widget.buttons, .is_desktop #mf-after-header .widget.buttons
 			{
 				margin-top: -8em;
 			}
@@ -118,19 +118,19 @@ GitHub Theme URI: frostkom/m-2017-child
 				font-size: .7em;
 			}
 
-	#aside h3
+	.aside h3
 	{
 		font-size: 1.8em;
 		text-align: center;
 	}
 
-	mf-pre-footer .widget
+	#mf-pre-footer .widget
 	{
 		font-size: 1.8em;
 		text-align: center;
 	}
 
-		mf-pre-footer .widget_black_studio_tinymce h3
+		#mf-pre-footer .widget_black_studio_tinymce h3
 		{
 			background: #4d4d4d none repeat scroll 0 0;
 			color: #fff;
@@ -140,7 +140,7 @@ GitHub Theme URI: frostkom/m-2017-child
 			text-transform: uppercase;
 		}
 
-		mf-pre-footer .vcard h3
+		#mf-pre-footer .vcard h3
 		{
 			background: #019cdb;
 			box-shadow: 0 1em 1em rgba(0, 0, 0, .2);
@@ -150,7 +150,7 @@ GitHub Theme URI: frostkom/m-2017-child
 			padding: 1em 0 3em;
 		}
 
-		mf-pre-footer .vcard .social.circle .fa
+		#mf-pre-footer .vcard .social.circle .fa
 		{
 			border-color: #fff;
 		}
