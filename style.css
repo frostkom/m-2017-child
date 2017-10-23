@@ -1,7 +1,7 @@
 /*
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
-Version: 2.0.2
+Version: 2.0.3
 Description: 
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -117,6 +117,28 @@ GitHub Theme URI: frostkom/m-2017-child
 			{
 				font-size: .7em;
 			}
+
+		.custom_list_one_col
+		{
+			list-style: none;
+		}
+
+			.custom_list_one_col li
+			{
+				overflow: hidden;
+			}
+
+				.custom_list_one_col .image
+				{
+					float: left;
+					width: 30%;
+				}
+
+				.custom_list_one_col p
+				{
+					float: right;
+					width: 65%;
+				}
 
 	.aside h3
 	{
