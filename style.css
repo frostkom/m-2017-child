@@ -1,7 +1,8 @@
 /*
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
-Version: 2.0.3
+Description: 
+Version: 2.0.6
 Description: 
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -18,7 +19,7 @@ GitHub Theme URI: frostkom/m-2017-child
 		border-top: 1px solid #f0994a;
 		display: block;
 		font-family: Helvetica, sans-serif;
-		font-size: .5em;
+		font-size: .7em;
 		padding-top: .3em;
 		text-align: center;
 		text-transform: uppercase;
@@ -57,13 +58,13 @@ GitHub Theme URI: frostkom/m-2017-child
 
 			.is_mobile #mf-after-header > div
 			{
-				margin-bottom: 0 !important;
+				margin-bottom: -25px !important;
 			}
 
-			.is_tablet #mf-after-header .widget.buttons, .is_desktop #mf-after-header .widget.buttons
-			{
-				margin-top: -8em;
-			}
+				.is_tablet #mf-after-header .widget.buttons, .is_desktop #mf-after-header .widget.buttons
+				{
+					margin-top: -8em;
+				}
 
 	.custom_list, .custom_list_vara-politiker
 	{
