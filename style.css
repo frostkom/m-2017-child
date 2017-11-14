@@ -2,7 +2,7 @@
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.0.7
+Version: 2.0.8
 Description: 
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -149,7 +149,7 @@ GitHub Theme URI: frostkom/m-2017-child
 
 	#mf-pre-footer .widget
 	{
-		font-size: 1.8em;
+		font-size: 1.8em; /*Can be removed later*/
 		text-align: center;
 	}
 
