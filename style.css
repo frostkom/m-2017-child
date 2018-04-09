@@ -2,7 +2,7 @@
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.0.12
+Version: 2.1.0
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: http://frostkom.se
@@ -65,7 +65,7 @@ GitHub Theme URI: frostkom/m-2017-child
 
 				.is_tablet #mf-after-header .widget.buttons, .is_desktop #mf-after-header .widget.buttons
 				{
-					margin-top: -8em;
+					margin-top: -10em;
 				}
 
 	.custom_list, .custom_list_vara-politiker
