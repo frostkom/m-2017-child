@@ -2,10 +2,10 @@
 Theme Name: M 2017
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.1.1
+Version: 2.1.2
 Licence: GPLv2 or later
 Author: Martin Fors
-Author URI: http://frostkom.se
+Author URI: https://frostkom.se
 
 Template: mf_theme
 
@@ -101,11 +101,9 @@ GitHub Theme URI: frostkom/m-2017-child
 			width: 99%;
 		}
 
-			.custom_list h2, .custom_list_vara-politiker h2
+			.custom_list h2
 			{
 				font-size: 1em;
-				overflow: hidden;
-				text-overflow: ellipsis;
 			}
 
 			.custom_list .image, .custom_list_vara-politiker .image
