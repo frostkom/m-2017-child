@@ -2,7 +2,7 @@
 Theme Name: M 2018
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.1.3
+Version: 2.1.4
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
@@ -68,7 +68,7 @@ GitHub Theme URI: frostkom/m-2017-child
 					margin-top: -10em;
 				}
 
-	.custom_list, .custom_list_vara-politiker
+	.custom_list, .custom_list_vara-politiker /* Change into "People" */
 	{
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -119,7 +119,7 @@ GitHub Theme URI: frostkom/m-2017-child
 				font-size: .7em;
 			}
 
-		.custom_list_one_col
+		.custom_list_one_col /* Change into "One Column" */
 		{
 			list-style: none;
 		}
