@@ -2,7 +2,7 @@
 Theme Name: M 2018
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.1.5
+Version: 2.1.6
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
@@ -68,7 +68,7 @@ GitHub Theme URI: frostkom/m-2017-child
 					margin-top: -10em;
 				}
 
-	.custom_list, .custom_list_vara-politiker /* Change into "People" */
+	.custom_list/*, .custom_list_vara-politiker*/
 	{
 		display: -webkit-box;
 		display: -ms-flexbox;
@@ -80,7 +80,7 @@ GitHub Theme URI: frostkom/m-2017-child
 		flex-wrap: wrap;
 	}
 
-		.custom_list li, .custom_list_vara-politiker li
+		.custom_list li/*, .custom_list_vara-politiker li*/
 		{
 			-webkit-box-flex: 0 1 auto;
 			-webkit-flex: 0 1 auto;
@@ -91,12 +91,12 @@ GitHub Theme URI: frostkom/m-2017-child
 			width: 24%;
 		}
 
-		.is_tablet .custom_list li, .is_tablet .custom_list_vara-politiker li
+		.is_tablet .custom_list li/*, .is_tablet .custom_list_vara-politiker li*/
 		{
 			width: 32%;
 		}
 
-		.is_mobile .custom_list li, .is_mobile .custom_list_vara-politiker li
+		.is_mobile .custom_list li/*, .is_mobile .custom_list_vara-politiker li*/
 		{
 			width: 99%;
 		}
@@ -106,7 +106,7 @@ GitHub Theme URI: frostkom/m-2017-child
 				font-size: 1em;
 			}
 
-			.custom_list .image, .custom_list_vara-politiker .image
+			.custom_list .image/*, .custom_list_vara-politiker .image*/
 			{
 				height: 0;
 				margin-bottom: .5em;
@@ -114,7 +114,7 @@ GitHub Theme URI: frostkom/m-2017-child
 				overflow: hidden;
 			}
 
-			.custom_list p, .custom_list_vara-politiker p
+			.custom_list p/*, .custom_list_vara-politiker p*/
 			{
 				font-size: .7em;
 			}
