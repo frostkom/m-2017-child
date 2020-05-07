@@ -1,8 +1,8 @@
 /*
-Theme Name: M 2019
+Theme Name: M 2020
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.2.2
+Version: 2.2.3
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
@@ -16,7 +16,6 @@ GitHub Theme URI: frostkom/m-2017-child
 {
 	header #site_logo span
 	{
-		/*border-top: 1px solid #f0994a;*/
 		display: block;
 		font-family: Helvetica, sans-serif;
 		font-size: .63em;
@@ -29,7 +28,7 @@ GitHub Theme URI: frostkom/m-2017-child
 
 	header .theme_nav > div > ul > li > a:before
 	{
-		background: #000094;
+		background: #019cdb;
 		content: "";
 		height: .4rem;
 		left: 0;
@@ -165,12 +164,12 @@ GitHub Theme URI: frostkom/m-2017-child
 
 		#mf-pre-footer .vcard h3
 		{
-			background: #000094;
+			background: #019cdb;
 			box-shadow: 0 1em 1em rgba(0, 0, 0, .2);
 			color: #fff;
 			font-weight: normal;
-			margin-bottom: -1.8em;
-			padding: 1em 0 3em;
+			margin-bottom: -2.3em;
+			padding: 1em 0 2.8em;
 			max-width: 100%;
 		}
 
@@ -179,18 +178,15 @@ GitHub Theme URI: frostkom/m-2017-child
 			border-color: #fff;
 		}
 
-		.widget.social_feed
+		/*.widget.social_feed
 		{
 			background: #dcdcdc;
-		}
+		}*/
 
 			.widget.social_feed h3
 			{
-				background: #4d4d4d;
-				color: #fff;
-				letter-spacing: .13em;
+				font-weight: normal;
 				padding: .2em 0;
-				text-transform: uppercase;
 				max-width: 100%;
 			}
 
