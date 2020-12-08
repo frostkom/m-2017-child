@@ -2,7 +2,7 @@
 Theme Name: M 2020
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.2.4
+Version: 2.2.5
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
@@ -18,12 +18,11 @@ GitHub Theme URI: frostkom/m-2017-child
 	{
 		display: block;
 		font-family: Helvetica, sans-serif;
-		font-size: .63em;
-		letter-spacing: .13em;
+		font-size: .6em;
+		font-weight: normal;
 		margin-top: .4em;
 		padding-top: .3em;
 		text-align: center;
-		text-transform: uppercase;
 	}
 
 	header .theme_nav > div > ul > li > a:before
@@ -52,7 +51,7 @@ GitHub Theme URI: frostkom/m-2017-child
 
 		#mf-after-header > div
 		{
-			margin-bottom: -50px !important;
+			margin-bottom: -65px !important;
 			padding: 0 2em;
 			text-align: center;
 		}
@@ -168,15 +167,26 @@ GitHub Theme URI: frostkom/m-2017-child
 			box-shadow: 0 1em 1em rgba(0, 0, 0, .2);
 			color: #fff;
 			font-weight: normal;
-			margin-bottom: -2.3em;
-			padding: 1em 0 2.8em;
+			margin-bottom: -1.9em;
+			padding: 1em 0 2.2em;
 			max-width: 100%;
 		}
 
-		#mf-pre-footer .vcard .social.circle .fa
+		#mf-pre-footer .vcard .social a
 		{
-			border-color: #fff;
+			font-size: 1.1em;
 		}
+
+			.vcard .social a + a
+			{
+				margin-left: 1em;
+			}
+
+			#mf-pre-footer .vcard .social.circle .fab
+			{
+				border-color: #fff;
+				border-width: .1em;
+			}
 
 		/*.widget.social_feed
 		{
@@ -194,6 +204,7 @@ GitHub Theme URI: frostkom/m-2017-child
 	{
 		border-bottom: 1px solid #666;
 		color: #666;
+		font-size: 1.3em;
 		font-weight: normal;
 	}
 
