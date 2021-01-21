@@ -6,6 +6,7 @@ class mf_theme_child
 
 	function site_transient_update_plugins($value)
 	{
+		$arr_plugins = array('google-calendar-events/google-calendar-events.php');
 		$arr_plugins = array('wp-live-chat-support/wp-live-chat-support.php');
 
 		foreach($arr_plugins as $plugin)
