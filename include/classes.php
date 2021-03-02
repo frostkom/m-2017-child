@@ -20,6 +20,18 @@ class mf_theme_child
 		return $value;
 	}
 
+	function admin_menu()
+	{
+		$setting_base_template_site = get_option('setting_base_template_site');
+
+		if($setting_base_template_site != '' && $_SERVER['REMOTE_ADDR'] == "2.71.84.174")
+		{
+			$menu_link = str_replace("mall.", "", $setting_base_template_site)."/manual/";
+			$menu_title = __("Manual", 'lang_m_2017_child');
+			add_menu_page("", $menu_title, 'read', $menu_link, '', 'dashicons-sos', 100);
+		}
+	}
+
 	function wp_head()
 	{
 		$theme_include_url = get_stylesheet_directory_uri()."/";
