@@ -24,7 +24,7 @@ class mf_theme_child
 	{
 		$setting_base_template_site = get_option('setting_base_template_site');
 
-		if($setting_base_template_site != '' && $_SERVER['REMOTE_ADDR'] == "2.71.84.174")
+		if($setting_base_template_site != '')
 		{
 			$menu_link = str_replace("mall.", "", $setting_base_template_site)."/manual/";
 			$menu_title = __("Manual", 'lang_m_2017_child');
