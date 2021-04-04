@@ -1,0 +1,129 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-04-02 17:52+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Martin Fors\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: sv_SE\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: esc_html__;esc_html_e;esc_attr__;esc_attr_e;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: ..\n"
+
+#: ../include/classes.php:33
+msgid "Manual"
+msgstr ""
+
+#: ../include/classes.php:42
+msgid "Create posts by sending e-mail message"
+msgstr "Skapa inlägg genom att skicka e-postmeddelanden"
+
+#: ../include/classes.php:61
+#, php-format
+msgid "If you want to create a post directly from your e-mail client you can send a message to %s and it will be created as soon as the server has received the message. It is important that you send the message from your address %s and the message should only contain exactly the text that you want the post to contain. If you attach an image it will also be published with the post."
+msgstr "Om du vill skapa ett inlägg direkt genom din e-postklient så kan du skicka ett meddelande till %s och inlägget kommer då att skapas så fort servern har mottagit meddelandet. Det är viktigt att du skickar från din adress %s och att meddelandet endast innehåller den text som du vill att inlägget ska innehålla. Om du bifogar en bild så kommer den också att publiceras tillsammans med inlägget."
+
+#: ../include/classes.php:66
+msgid "There is no e-mail address set. Please go to the settings and enter the correct e-mail address and corresponding server settings."
+msgstr "Det finns ingen angiven e-postadress. Var vänlig gå till inställningarna och ange e-postadress med tillhörande serveruppgifter."
+
+#~ msgid "One Reply to %s"
+#~ msgstr "Ett svar till %s"
+
+#~ msgid "Previous"
+#~ msgstr "Föregående"
+
+#~ msgid "Next"
+#~ msgstr "Nästa"
+
+#~ msgid "Comments are closed"
+#~ msgstr "Kommentarer är stängda"
+
+#~ msgid "Read More"
+#~ msgstr "Läs mer"
+
+#~ msgid "No results"
+#~ msgstr "Inga resultat"
+
+#~ msgid "I could not find any results for %s"
+#~ msgstr "Jag kunde inte hitta några resultat för %s"
+
+#~ msgid "Load more posts"
+#~ msgstr "Ladda fler inlägg"
+
+#~ msgid "Display Heading"
+#~ msgstr "Visa rubrik"
+
+#~ msgid "Display Featured Image on Single Page"
+#~ msgstr "Visa utvald bild på sida"
+
+#~ msgid "Text Columns"
+#~ msgstr "Textkolumner"
+
+#~ msgid "Body Class"
+#~ msgstr "Klass på Body"
+
+#~ msgid "Content Settings"
+#~ msgstr "Inställningar för innehåll"
+
+#~ msgid "Primary Navigation"
+#~ msgstr "Primär navigation"
+
+#~ msgid "Secondary Navigation"
+#~ msgstr "Sekundär navigation"
+
+#~ msgid "Header"
+#~ msgstr "Sidhuvud"
+
+#~ msgid "After Header"
+#~ msgstr "Efter sidhuvud"
+
+#~ msgid "Slide menu"
+#~ msgstr "Sidomeny"
+
+#~ msgid "Pre Content"
+#~ msgstr "Före innehåll"
+
+#~ msgid "Below Main Heading"
+#~ msgstr "Under huvudrubrik"
+
+#~ msgid "Aside"
+#~ msgstr "Sidokolumn"
+
+#~ msgid "Left"
+#~ msgstr "Vänster"
+
+#~ msgid "Below Main Column"
+#~ msgstr "Under huvudkolumn"
+
+#~ msgid "Right"
+#~ msgstr "Höger"
+
+#~ msgid "Below Content"
+#~ msgstr "Efter innehåll"
+
+#~ msgid "Pre Footer"
+#~ msgstr "Före sidfot"
+
+#~ msgid "Footer"
+#~ msgstr "Sidfot"
+
+#~ msgid "Window Side Icons"
+#~ msgstr "Sidoikoner"
+
+#~ msgid "Display menu"
+#~ msgstr "Visa meny"
+
+#~ msgid "Menu Type"
+#~ msgstr "Typ av meny"
+
+#~ msgid "Always Display Mobile Menu"
+#~ msgstr "Visa alltid mobilmeny"
+
+#~ msgid "Footer Navigation"
+#~ msgstr "Meny i sidfot"
