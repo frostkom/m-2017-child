@@ -2,7 +2,7 @@
 Theme Name: M 2020
 Theme URI: https://github.com/frostkom/m-2017-child
 Description: 
-Version: 2.2.14
+Version: 2.2.15
 Licence: GPLv2 or later
 Author: Martin Fors
 Author URI: https://frostkom.se
@@ -108,6 +108,11 @@ GitHub Theme URI: frostkom/m-2017-child
 			{
 				width: 40%;
 			}
+
+				.is_mobile .widget.hero h3, .is_mobile .widget.hero .content
+				{
+					width: 100%;
+				}
 
 		.widget.hero h3 a, .widget.hero h3 span
 		{
