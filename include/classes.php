@@ -2,10 +2,7 @@
 
 class mf_theme_child
 {
-	function __construct()
-	{
-		$this->lang_key = 'lang_m_child';
-	}
+	function __construct(){}
 
 	function site_transient_update_plugins($value)
 	{
@@ -30,7 +27,7 @@ class mf_theme_child
 		if($setting_base_template_site != '')
 		{
 			$menu_link = str_replace("mall.", "", $setting_base_template_site)."/manual/";
-			$menu_title = __("Manual", $this->lang_key);
+			$menu_title = __("Manual", 'lang_m_child');
 			add_menu_page("", $menu_title, 'read', $menu_link, '', 'dashicons-sos', 100);
 		}
 	}
@@ -39,7 +36,7 @@ class mf_theme_child
 	{
 		if(is_plugin_active("postie/postie.php"))
 		{
-			$widget_title = __("Create posts by sending e-mail message", $this->lang_key);
+			$widget_title = __("Create posts by sending e-mail message", 'lang_m_child');
 
 			//add_meta_box("custom_dashboard_widget_postie", $widget_title, array($this, 'display_widget'), 'dashboard', 'normal', 'default'); //, $post_id
 			wp_add_dashboard_widget("custom_dashboard_widget_postie", $widget_title, array($this, 'display_widget')); //, '', $post_id
@@ -58,12 +55,12 @@ class mf_theme_child
 			$user_data = get_userdata(get_current_user_id());
 			$profile_email = $user_data->user_email;
 
-			echo "<p>".sprintf(__("If you want to create a post directly from your e-mail client you can send a message to %s and it will be created as soon as the server has received the message. It is important that you send the message from your address %s and the message should only contain exactly the text that you want the post to contain. If you attach an image it will also be published with the post.", $this->lang_key), "<a href='mailto:".$postie_address."'>".$postie_address."</a>", "<a href='mailto:".$profile_email."'>".$profile_email."</a>")."</p>";
+			echo "<p>".sprintf(__("If you want to create a post directly from your e-mail client you can send a message to %s and it will be created as soon as the server has received the message. It is important that you send the message from your address %s and the message should only contain exactly the text that you want the post to contain. If you attach an image it will also be published with the post.", 'lang_m_child'), "<a href='mailto:".$postie_address."'>".$postie_address."</a>", "<a href='mailto:".$profile_email."'>".$profile_email."</a>")."</p>";
 		}
 
 		else if(IS_ADMIN)
 		{
-			echo "<p>".sprintf(__("There is no e-mail address set. Please go to the settings and enter the correct e-mail address and corresponding server settings.", $this->lang_key), "<a href='".admin_url("admin.php?page=postie-settings")."'>", "</a>")."</p>";
+			echo "<p>".sprintf(__("There is no e-mail address set. Please go to the settings and enter the correct e-mail address and corresponding server settings.", 'lang_m_child'), "<a href='".admin_url("admin.php?page=postie-settings")."'>", "</a>")."</p>";
 		}
 	}
 
